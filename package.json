@@ -1,0 +1,17 @@
+{
+  "name": "timeline",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@observablehq/plot": "^0.6.17",
+    "date-fns": "^4.1.0",
+    "vega": "^6.1.2",
+    "vega-lite": "^6.3.1"
+  }
+}
